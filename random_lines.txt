@@ -1,0 +1,1 @@
+f"The {random_adjective()} {random_noun()} {random_verb()}s the {random_adjective()} {random_noun()}"
