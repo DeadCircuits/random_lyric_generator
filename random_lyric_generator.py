@@ -17,7 +17,7 @@ def random_verb():
 
 
 def random_adjective():
-    return r.get_random_word(hasDictionaryDef="true", includePartOfSpeech="adjective")
+    return r.get_random_word(hasDictionaryDef="true", includePartOfSpeech="adjective", minCorpusCount=10)
 
 
 print(
