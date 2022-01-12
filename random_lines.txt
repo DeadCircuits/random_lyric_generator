@@ -1,1 +1,6 @@
 f"The {random_adjective()} {random_noun()} {random_verb()}s the {random_adjective()} {random_noun()}"
+f"Take your {random_adjective()} {random_noun()} and go {random_verb()} someone else's {random_noun()}"
+f"Don't you wish your {random_noun()} was {random_adjective()} like me?"
+f"Your {random_adjective()} {random_noun()} is like a {random_verb()} {random_noun()}"
+f"Since your were {random_adjective()}, I've been {random_adjective()} {random_noun()}"
+f"{random_adjective().title()} {random_noun()} is like the {random_adjective()} {random_noun()}"

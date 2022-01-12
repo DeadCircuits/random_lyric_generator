@@ -9,17 +9,22 @@ def random_line():
 
 
 def random_noun():
-    return r.get_random_word(hasDictionaryDef="true", includePartOfSpeech="noun")
+    word = r.get_random_word(hasDictionaryDef="true", includePartOfSpeech="verb", minCorpusCount=1000)  
+    return word
 
 
 def random_verb():
-    return r.get_random_word(hasDictionaryDef="true", includePartOfSpeech="verb")
+    word = r.get_random_word(hasDictionaryDef="true", includePartOfSpeech="verb", minCorpusCount=1000)
+    return word
+
 
 
 def random_adjective():
-    return r.get_random_word(hasDictionaryDef="true", includePartOfSpeech="adjective", minCorpusCount=10)
+    word = r.get_random_word(hasDictionaryDef="true", includePartOfSpeech="verb", minCorpusCount=1000)
+    return word
 
 
-print(
-    eval(random_line())
-)
+for x in range(5):
+    print(
+        eval(random_line())
+    )
